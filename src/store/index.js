@@ -5,8 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    photoList: []
   },
   mutations: {
+    setPhotoList(state, data) {
+      state.photoList = data
+    }
   },
   actions: {
   },
